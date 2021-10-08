@@ -1,0 +1,24 @@
+<style>
+    p {color:green;
+    font-size: 400%;
+}
+
+
+    h1 {color:hotpink;
+    letter-spacing: 2em;}
+    body {
+        color:maroon;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1, p {
+        font-size: 400%;
+        color:mediumturquoise;
+        /* this is a grouped selector - it will style both headings*/
+    }
+
+    p a {
+        color:orange;
+    }
+    /* only styling the links inside the p tage*/
+    /* the marron only gets applied to h2 because p and h1 have their own colors*/
+</style>
